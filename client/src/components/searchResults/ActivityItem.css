@@ -1,0 +1,53 @@
+img {
+  position: relative;
+  float: left;
+  width: 100%;
+  /* height: 100%; */
+  height: 250px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hike-summary {
+  margin-top: 1rem;
+}
+
+.hike-img {
+  position: relative;
+}
+
+.img-caption {
+  bottom: 10%;
+  left: 2%;
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* .card {
+  height: 100%;
+}
+
+.activity-item a {
+  text-decoration: none;
+  color: inherit;
+} */
+
+/* .btn-outline-secondary {
+  width: 100%;
+} */
+
+/* .call-to-action {
+  margin: 25px 0;
+}
+
+.btn-success {
+  width: 75%;
+}
+
+.below-header {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 2% 0;
+} */

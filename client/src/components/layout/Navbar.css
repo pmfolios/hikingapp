@@ -1,0 +1,36 @@
+/* .nav-general-styling {
+  background: black;
+} */
+
+/* .nav-container {
+  margin-bottom: 100px;
+} */
+
+#override-navbar {
+  font-weight: 100;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#override-navbar-brand h3 {
+  font-weight: 100;
+}
+
+#override-nav-item {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  #override-navbar {
+    background-color: transparent;
+  }
+
+  #override-nav-item:hover {
+    transition: 0.2s;
+    border-bottom: 1px solid white;
+  }
+}
