@@ -2,11 +2,13 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 
+const hikesKey = require('../../config/keys_dev').hikesKEY;
+
 router.post('/', (req, res) => {
   axios
     .get('https://www.hikingproject.com/data/get-trails', {
       params: {
-        key: '200518201-a8a901b7dd0abe3ddf1f188778e8e7e8',
+        key: hikesKey,
         lat: req.body.lat,
         lon: req.body.lon,
         maxResults: 50
